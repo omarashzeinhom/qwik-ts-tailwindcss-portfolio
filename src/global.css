@@ -6,6 +6,10 @@
  *
  */
 
+ /* tailwind required imports */
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
 
 section {
   height: 100vh;

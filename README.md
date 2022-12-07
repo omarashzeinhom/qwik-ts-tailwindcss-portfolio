@@ -83,3 +83,4 @@ npm run build # or `yarn build`
 - [@QwikDev](https://twitter.com/QwikDev)
 - [Vite](https://vitejs.dev/)
 - [Sticky navbar](https://flowbite.com/docs/components/navbar/#sticky-navbar)
+- [Image Gallery component - tailwindelements](https://tailwind-elements.com/docs/standard/components/gallery/)

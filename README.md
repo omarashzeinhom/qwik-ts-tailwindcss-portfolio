@@ -27,9 +27,7 @@
 - [Image Gallery component - tailwindelements](https://tailwind-elements.com/docs/standard/components/gallery/)
 - [Tailwind Gallery component](https://tailwind-elements.com/docs/standard/components/gallery/)
 - [Tailwind Cards component](https://tailwind-elements.com/docs/standard/components/cards/)
-[GitHub Repository](https://github.com/omarashzeinhom/portfolio-typescript-qwik-and-scss)
-[Tailwind Jumbotron component](https://tailwind-elements.com/docs/standard/components/jumbotron/)
-
-[Tailwind Avatar component](https://tailwind-elements.com/docs/standard/components/avatar/)
-
-[Tailwind Social Media icons & buttons component](https://tailwind-elements.com/docs/standard/components/social-buttons/)
+- [GitHub Repository](https://github.com/omarashzeinhom/portfolio-typescript-qwik-and-scss)
+- [Tailwind Jumbotron component](https://tailwind-elements.com/docs/standard/components/jumbotron/)
+- [Tailwind Avatar component](https://tailwind-elements.com/docs/standard/components/avatar/)
+- [Tailwind Social Media icons & buttons component](https://tailwind-elements.com/docs/standard/components/social-buttons/)

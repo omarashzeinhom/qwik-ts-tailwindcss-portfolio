@@ -12,7 +12,9 @@ export default component$(() => {
   return (
     <section id="about">
       <br />
-      <h2 class="">About</h2>
+      <div class="text-center bg-gray-50 text-gray-800 py-10 px-3">
+      <h2 class="text-2xl font-bold mt-1 mb-4">About</h2>
+      </div>
       <img
         class="about__avatar hover:object-scale-down"
         data-mdb-ripple="true"

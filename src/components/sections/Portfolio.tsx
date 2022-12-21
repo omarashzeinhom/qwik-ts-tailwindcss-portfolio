@@ -5,50 +5,33 @@ export default component$(() => {
   useStylesScoped$(styles);
 
   return (
-    <section id="portfolio">
+    <section id="portfolio" class="overflow-hidden text-gray-700">
       <br />
-      <h2>Portfolio</h2>
+      <h2 class="text-xl font-medium leading-tight mb-2">Portfolio</h2>
+      <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+    <div class="flex flex-wrap -m-1 md:-m-2">
+      <div class="flex flex-wrap w-1/2">
      
-      <div id="carouselExampleControls" class="carousel slide relative" data-bs-ride="carousel">
-      <div class="carousel-inner relative w-full overflow-hidden">
       {portfolioItemsObject.map((item, index) => {
 
         return (
 <>
-<div class="carousel-item  active relative float-left w-full" >
-
+<div class="w-1/2 p-1 md:p-2">
       <img
       key={index}
         src={item?.img}
-        class="block w-full"
+        class="block object-cover object-center w-full h-full rounded-lg"
         alt="Camera"
       />
       </div>
+
     </>
         )
 
       })}
 </div>
 </div>
-<button
-    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-    type="button"
-    data-bs-target="#carouselExampleControls"
-    data-bs-slide="prev"
-  >
-    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-    type="button"
-    data-bs-target="#carouselExampleControls"
-    data-bs-slide="next"
-  >
-    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-
+</div>
     </section>
 
   )

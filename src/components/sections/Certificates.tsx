@@ -10,7 +10,7 @@ export default component$(() => {
     <section id="certificates" class="overflow-hidden text-gray-700 ">
       <br />
       <div class="text-center bg-gray-50 text-gray-800 py-10 px-3">
-      <h2 class="text-2xl font-bold mt-0 mb-1">Certificates</h2>
+        <h2 class="text-2xl font-bold mt-0 mb-1">Certificates</h2>
       </div>
 
       <div class="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">

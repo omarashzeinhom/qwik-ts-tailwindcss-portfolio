@@ -1,7 +1,6 @@
 
 
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
-//import { QwikLogo } from '../icons/qwik';
 import styles from './about.css?inline';
 import SocailMedia from '../socialmedia/SocailMedia';
 
@@ -13,7 +12,7 @@ export default component$(() => {
     <section id="about">
       <br />
       <div class="text-center bg-gray-50 text-gray-800 py-10 px-3">
-      <h2 class="text-2xl font-bold mt-1 mb-4">About</h2>
+        <h2 class="text-2xl font-bold mt-1 mb-4">About</h2>
       </div>
       <img
         class="about__avatar hover:object-scale-down"
@@ -27,21 +26,17 @@ export default component$(() => {
         <h5 class="text-xl font-medium leading-tight mb-2">John Doe</h5>
 
         <p class="text-gray-500">Web designer</p>
-        <ul>
-          <li>  <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur odit sequi eius architecto, est velit cupiditate ad officia libero perferendis fuga. Officia magnam facilis quam quia rem natus harum vitae!
-          </p></li>
-     
-        </ul>
-        </div>
-<br/>
-<SocailMedia/>
+        <ol class="border-l border-gray-300">
+          <div class="mt-0.5 ml-4 mb-6">
+            <li>  <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur odit sequi eius architecto, est velit cupiditate ad officia libero perferendis fuga. Officia magnam facilis quam quia rem natus harum vitae!
+            </p></li>
+          </div>
 
-        
-     
-
-
-
+        </ol>
+      </div>
+      <br />
+      <SocailMedia />
     </section>
   )
 })

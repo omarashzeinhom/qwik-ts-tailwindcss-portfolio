@@ -12,10 +12,10 @@
     source-map "0.7.4"
     vfile "5.3.6"
 
-"@builder.io/qwik@0.14.1":
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-0.14.1.tgz#b82d097d73a77ad8cca3298abbbc6d4ca59d4be5"
-  integrity sha512-bHAWSK2kaJ8VxYsR85/0cj/dbzp2dfzjWZDWoH8gKy2PZw+PYGh+vIsQE0H+Xu3WIkwkkyi8PdWA1H/Qp9MSng==
+"@builder.io/qwik@0.16.2":
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-0.16.2.tgz#e29d2c001043ed40260eae309948c8d91bae091c"
+  integrity sha512-yq+WXx54PVDJkTse7C7zYcTVIn2g5qHD2buH/iy7nux+fVLd2Qpui7UK1nuioK2Kpf75JfEAH9ZSWIHQl32FKQ==
 
 "@cush/relative@^1.0.0":
   version "1.0.0"
